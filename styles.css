@@ -1,0 +1,36 @@
+.altura {
+    width: 300px;
+}
+
+.pagina-general {
+    /* background-color: rgb(168, 23, 23); */
+    background: linear-gradient(135deg, #1a0000, #4b0000, #7a0c0c, #1a1a1a);
+    height: 100vh;
+}
+
+/* .card-title {
+    color: darkolivegreen;
+}
+
+.card-text {
+    color: aquamarine;
+} */
+
+.card {
+    border: 3px solid #8b0000;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.3);
+    color: #f3f3f3;
+    background: linear-gradient(145deg, #2a0000, #400000);
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+    cursor: pointer;
+    width: 100%;
+}
+
+.card:hover {
+    border-color: #ff1a1a;
+    box-shadow: 0 6px 20px rgba(255, 50, 50, 0.6);
+    transform: scale(1.05);
+    background: linear-gradient(145deg, #4b0000, #800000);
+}
